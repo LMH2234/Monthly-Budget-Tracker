@@ -16,6 +16,7 @@ A smart Excel budget tracker powered by Apple Shortcuts and VBA automation.
    - Open the workbook.
    - The workbook already includes all required VBA code (no import needed).
    - If macros are disabled, enable them when prompted.
+   - Optional) Open the VBA editor and delete “Module3”, this module is only          used to strip author information and is not required for normal use.
 4. In Shortcuts:
    - Import `Add Transaction.shortcut` (double-click on Mac)
    - Ensure your workbook name matches `Monthly Budget Tracker.xlsm` and amend        the path and wortsheet name `2025-Oct`)
