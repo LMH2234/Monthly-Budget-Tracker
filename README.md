@@ -14,12 +14,8 @@ A smart Excel budget tracker powered by Apple Shortcuts and VBA automation.
 2. Copy `Monthly Budget Tracker.xlsm` to your folder.
 3. In Excel:
    - Open the workbook.
-   - Open the VBA editor.
-   - Import:
-     - `UpdateBudget.bas`
-     - `UpdateAssets.bas`
-     - `Worksheet Change.cls` worksheet module for the Template and 2025-Oct                                   sheet)
-   - Save and close the VBA editor.
+   - The workbook already includes all required VBA code (no import needed).
+   - If macros are disabled, enable them when prompted.
 4. In Shortcuts:
    - Import `Add Transaction.shortcut` (double-click on Mac)
    - Ensure your workbook name matches `Monthly Budget Tracker.xlsm` and amend        the path and wortsheet name `2025-Oct`)
